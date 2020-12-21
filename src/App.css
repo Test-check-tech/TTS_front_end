@@ -1,0 +1,40 @@
+.line {
+  font-style: italic;
+  color: green;
+}
+
+#content::after {
+  content: "\a";
+  white-space: pre;
+  line-height: 2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.LoginBackground {
+  background-image: url(./images/Kite_Login_BG.png);
+  background-size: cover;
+  min-height: 380px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Login {
+  margin: 0 auto;
+  max-width: 580px;
+  position: relative;
+  top: 7%;
+  width: 520px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
